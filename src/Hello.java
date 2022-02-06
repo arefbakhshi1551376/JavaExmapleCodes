@@ -21,20 +21,20 @@ public class Hello
         System.out.println(floatMinValue);
         System.out.println(floatMaxValue);
 
-        // *************************** float *************************** //
+        // *************************** double *************************** //
         double doubleMinValue = Double.MIN_VALUE;
         double doubleMaxValue = Double.MAX_VALUE;
         System.out.println(doubleMinValue);
         System.out.println(doubleMaxValue);
 
-        // *************************** float *************************** //
+        // *************************** long *************************** //
         long longMinValue = Long.MIN_VALUE;
         long longMaxValue = Long.MAX_VALUE;
         long a = 9_223_372_036_854_775_807L;
         System.out.println(longMinValue);
         System.out.println(longMaxValue);
 
-        // *************************** log2 *************************** //
+        // *************************** pow2 *************************** //
         System.out.println("Enter your number:");
         Scanner numberScanner = new Scanner(System.in);
         long number = numberScanner.nextLong();
