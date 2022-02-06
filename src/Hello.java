@@ -46,18 +46,5 @@ public class Hello
             counter++;
         }
         System.out.println(counter);
-
-        // *************************** line conditional *************************** //
-        boolean isTrue = true;
-        int res = 0;
-        if (isTrue)
-        {
-            res = 1;
-        }
-        else
-        {
-            res = 2;
-        }
-        int resInLine = isTrue ? 1 : 2;
     }
 }
